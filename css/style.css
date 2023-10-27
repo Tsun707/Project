@@ -1,0 +1,144 @@
+body{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+header{
+	background-color: grey;
+	overflow: hidden;
+	width: 100%;
+	border: solid;
+}
+
+section{
+	margin: 40px;
+	font-family: kanit; 
+	font-weight: 300;
+}
+	
+img{
+	
+	margin: 0px 20px 0px 0px;
+	padding: 0;
+	float: left;
+	display: block;
+}
+
+iframe{
+	display: block;
+	float: left;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+nav ul li{
+	float: left;
+	padding: 10px 40px;
+	margin: 0;
+	display: block;
+}
+	
+header nav ul li a{
+	text-decoration: none;
+	font-family: kanit;
+	font-size: 25px;
+	color: white;	
+}
+
+.title{
+	font-family: kanit; 
+	font-weight: 1000;
+}
+
+#home:hover{
+	background-color: #3083DC;
+	color: white;
+	margin: 0 0 0 10%
+	-webkit-text-fill-color: red;
+	-webkit-text-stroke: 1px #fff44f;
+	
+}
+
+#resume:hover{
+	background-color: white;
+	-webkit-text-fill-color: red;
+	font-weight: 0;
+	-webkit-text-stroke: 1px #fff44f;	
+}
+
+#Sarajevo-Statue:hover{
+	background-color: red;
+	color: white;
+	-webkit-text-fill-color: red;
+	font-weight: 0;
+	-webkit-text-stroke: 1px #fff44f;
+}
+
+#education{
+	float: right;
+	width: 50%;
+	left: 33.5%;
+	top:11%;
+	position: absolute;
+	display: block;
+}
+#education ol li{
+	list-style-type: none;
+	padding: 6px 0px;
+	margin: 0;	
+} 
+
+#contact-information{
+	width: 30%;
+	display: block;
+}
+
+#accoldes{
+	left: 30.9%;
+	top: 27%;
+	position: absolute;	
+	float: right;
+}
+#editing{
+	float: right;
+	font-family: kanit;
+	font-weight:300;
+	margin: 40px;
+}
+
+#oldman{
+	float: right;
+	margin: 10px 0px;
+	display: block;
+	width: 50%
+}
+
+#runbywall{
+	float: left;
+	margin: 10px 0px;
+	display: block;
+	width: 50%
+}
+
+#runbywall p{
+	float:left;
+	margin: 0;
+	width: 50%;
+}
+
+#blalkans{
+	display: block;
+	width: 60%;
+	margin: 5% 0% 5% 0%;
+	float: right;
+}
+
+#counties{
+    display: block;
+	float: left;
+}

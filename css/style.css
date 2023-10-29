@@ -1,35 +1,34 @@
-body{
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 header{
 	background-color: grey;
 	overflow: hidden;
 	width: 100%;
-	border: solid;
+	display:flex;
+	justify-content: center;
 }
 
 section{
-	margin: 40px;
+	margin: 10px 20px;
 	font-family: kanit; 
 	font-weight: 300;
 }
-	
-img{
-	
-	margin: 0px 20px 0px 0px;
-	padding: 0;
-	float: left;
-	display: block;
+
+div{
+	margin: 10px 20px;
+	font-family: kanit; 
+	font-weight: 300;
 }
 
 iframe{
 	display: block;
 	float: left;
 }
+nav{
+	text-align: center;
+}
 
 nav ul{
+	display: inline-block;
 	list-style-type: none;
 	margin: 0;
     padding: 0;
@@ -39,15 +38,16 @@ nav ul{
 nav ul li{
 	float: left;
 	padding: 10px 40px;
-	margin: 0;
-	display: block;
+	position: relative;
+    display: block; 
 }
-	
-header nav ul li a{
+
+nav ul li a{
 	text-decoration: none;
 	font-family: kanit;
 	font-size: 25px;
-	color: white;	
+	color: white;
+	display: block;	
 }
 
 .title{
@@ -57,8 +57,6 @@ header nav ul li a{
 
 #home:hover{
 	background-color: #3083DC;
-	color: white;
-	margin: 0 0 0 10%
 	-webkit-text-fill-color: red;
 	-webkit-text-stroke: 1px #fff44f;
 	
@@ -67,15 +65,12 @@ header nav ul li a{
 #resume:hover{
 	background-color: white;
 	-webkit-text-fill-color: red;
-	font-weight: 0;
 	-webkit-text-stroke: 1px #fff44f;	
 }
 
 #Sarajevo-Statue:hover{
 	background-color: red;
-	color: white;
 	-webkit-text-fill-color: red;
-	font-weight: 0;
 	-webkit-text-stroke: 1px #fff44f;
 }
 
@@ -111,26 +106,6 @@ header nav ul li a{
 	margin: 40px;
 }
 
-#oldman{
-	float: right;
-	margin: 10px 0px;
-	display: block;
-	width: 50%
-}
-
-#runbywall{
-	float: left;
-	margin: 10px 0px;
-	display: block;
-	width: 50%
-}
-
-#runbywall p{
-	float:left;
-	margin: 0;
-	width: 50%;
-}
-
 #blalkans{
 	display: block;
 	width: 60%;
@@ -141,4 +116,26 @@ header nav ul li a{
 #counties{
     display: block;
 	float: left;
+}
+
+#mainimage{
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+
+#mainimage2{
+	text-align: center;
+	margin: 0px 10px 0px 0px;
+	display: inline;
+}
+
+#mainimage2 img {
+	text-align: center;
+	width: 50%
+}
+
+.stroycontent{
+	float: left;
+	width: 70%;
+	margin: 0;
 }

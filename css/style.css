@@ -99,6 +99,7 @@ nav ul li a{
 	float: left;
 	display: block;
 	margin: 0;
+	width: 50%
 }
 
 #accoldes h3{
@@ -106,11 +107,16 @@ nav ul li a{
 }
 
 footer{
-	float: right;
+	background-color: grey;
 	font-family: kanit;
 	font-weight:1000;
-	margin: 10px 20px;
 	width: 100%;
+}
+
+footer p{
+	float: right;
+	margin: 10px 40px;
+	color: bule;
 }
 
 #blalkans{
@@ -127,7 +133,7 @@ footer{
 }
 
 #mainimage{
-	clear: both;
+	float: left;
 	margin: 0px 10px 0px 0px;
 	height: 500xp
 }
@@ -149,7 +155,8 @@ footer{
 }
 
 .stroycontent{
-	float: right;
+	float: left;
 	width: 100%;
 	margin: 0;
 }
+

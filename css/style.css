@@ -57,21 +57,22 @@ nav ul li a{
 
 #home:hover{
 	background-color: #3083DC;
-	text-fill-color: red;
-	text-stroke: 1px #fff44f;
+	-webkit-text-fill-color: red;
+	-webkit-text-stroke: 1px #fff44f;
 	
 }
 
 #resume:hover{
 	background-color: white;
-	text-fill-color: red;
-	text-stroke: 1px #fff44f;	
+	-webkit-text-fill-color: red;
+	-webkit-text-stroke: 1px #fff44f;	
 }
 
 #Sarajevo-Statue:hover{
 	background-color: red;
-	text-fill-color: red;
-	text-stroke: 1px #fff44f;
+	background-clip: text;
+	-webkit-text-fill-color: red;
+	-webkit-text-stroke: 1px #fff44f;
 }
 
 #education{
@@ -107,16 +108,19 @@ nav ul li a{
 }
 
 footer{
-	background-color: grey;
 	font-family: kanit;
-	font-weight:1000;
+	font-weight:500;
 	width: 100%;
 }
 
 footer p{
+	background-color: gray;
 	float: right;
-	margin: 10px 40px;
-	color: bule;
+	text-align: right;
+	margin: 10px 10px;
+	padding: 10px 30px;
+	width: 100%;
+	color: white;
 }
 
 #blalkans{
@@ -135,7 +139,6 @@ footer p{
 #mainimage{
 	float: left;
 	margin: 0px 10px 0px 0px;
-	height: 500xp
 }
 
 #mainimage2{

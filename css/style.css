@@ -62,17 +62,18 @@ nav ul li a{
 	
 }
 
-#resume:hover{
+#resume a:hover{
 	background-color: white;
 	-webkit-text-fill-color: red;
 	-webkit-text-stroke: 1px #fff44f;	
 }
 
 #Sarajevo-Statue:hover{
-	background-color: red;
 	background-clip: text;
 	-webkit-text-fill-color: red;
 	-webkit-text-stroke: 1px #fff44f;
+	background-color: red;
+	
 }
 
 #education{

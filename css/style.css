@@ -55,24 +55,23 @@ nav ul li a{
 	font-weight: 1000;
 }
 
-#home:hover{
+#home a:hover{
 	background-color: #3083DC;
-	-webkit-text-fill-color: red;
-	-webkit-text-stroke: 1px #fff44f;
+	color: red;
+	text-shadow: 1px #fff44f;
 	
 }
 
 #resume a:hover{
-	background-color: white;
-	-webkit-text-fill-color: red;
-	-webkit-text-stroke: 1px #fff44f;	
+	background: white;
+	color: red;
+	text-shadow: 1px #fff44f;	
 }
 
-#Sarajevo-Statue:hover{
-	background-clip: text;
-	-webkit-text-fill-color: red;
-	-webkit-text-stroke: 1px #fff44f;
+#Sarajevo-Statue a :hover{
 	background-color: red;
+	color: red;
+	text-shadow: 1px #fff44f;
 	
 }
 
